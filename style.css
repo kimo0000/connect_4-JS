@@ -1,0 +1,49 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica;
+}
+
+.container {
+    padding: 10px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.blocks {
+    border: 1px solid #000;
+    width: 142px;
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.blocks div {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.player_one {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.player_two {
+    background-color: blue;
+    border-radius: 50%;
+}
